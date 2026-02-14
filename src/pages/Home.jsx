@@ -14,7 +14,7 @@ export default function Home() {
         ref={heroRef}
         className={`relative min-h-screen bg-cover bg-no-repeat flex items-center justify-center transition-all duration-1000 ${heroVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
         style={{
-          backgroundImage: `url('/assets/360_F_523378084_mkoc6hIGSmNncESTUvzSL8vCidYFUeaS.jpg')`,
+          backgroundImage: `url('/src/assets/360_F_523378084_mkoc6hIGSmNncESTUvzSL8vCidYFUeaS.jpg')`,
           backgroundPosition: window.innerWidth < 768 ? 'center left -5rem' : 'center',
         }}
       >
@@ -98,7 +98,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mb-12">
             <img
-              src="/assets/WhatsApp Image 2026-02-13 at 21.46.24.jpeg"
+              src="/src/assets/WhatsApp Image 2026-02-13 at 21.46.24.jpeg"
               alt="Logo Tienda Bien Alto"
               className="w-24 h-24 md:w-28 md:h-28 object-cover rounded-full flex-shrink-0"
             />
@@ -120,11 +120,11 @@ export default function Home() {
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
             {[
-              { name: "Mates", image: "/assets/WhatsApp Image 2026-02-13 at 20.37.53.jpeg", link: "/mates" },
-              { name: "Termos", image: "/assets/WhatsApp Image 2026-02-13 at 20.38.02.jpeg", link: "/termos" },
-              { name: "Bombilla", image: "/assets/WhatsApp Image 2026-02-13 at 20.37.58.jpeg", link: "/bombilla" },
-              { name: "Llavero y Azucarero", image: "/assets/WhatsApp Image 2026-02-13 at 20.37.56 (1).jpeg", link: "/llavero-azucarero" },
-              { name: "Vaso Fernetero", image: "/assets/WhatsApp Image 2026-02-13 at 20.37.52.jpeg", link: "/vaso-fernetero" },
+              { name: "Mates", image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.53.jpeg", link: "/mates" },
+              { name: "Termos", image: "/src/assets/WhatsApp Image 2026-02-13 at 20.38.02.jpeg", link: "/termos" },
+              { name: "Bombilla", image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.58.jpeg", link: "/bombilla" },
+              { name: "Llavero y Azucarero", image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.56 (1).jpeg", link: "/llavero-azucarero" },
+              { name: "Vaso Fernetero", image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.52.jpeg", link: "/vaso-fernetero" },
             ].map((category) => (
               <Link
                 key={category.name}

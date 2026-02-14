@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="flex flex-col items-start">
             <div className="flex items-center gap-3 mb-4">
               <img 
-                src="/assets/WhatsApp Image 2026-02-13 at 21.46.24.jpeg" 
+                src="/src/assets/WhatsApp Image 2026-02-13 at 21.46.24.jpeg" 
                 alt="La Dinastia Del Mate" 
                 className="w-16 h-16 rounded-full object-cover"
               />
