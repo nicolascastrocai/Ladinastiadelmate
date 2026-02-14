@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
+import FAQ from "../components/FAQ";
 
 export default function Home() {
   const [heroRef, heroVisible] = useScrollAnimation();
@@ -160,6 +161,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <FAQ />
     </main>
   );
 }

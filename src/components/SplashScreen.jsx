@@ -10,7 +10,7 @@ export default function SplashScreen({ isVisible }) {
       <div className="text-center px-4">
         <div className="animate-fade-in">
           <p className="text-white text-sm sm:text-base tracking-[0.3em] mb-6 font-light">
-            EST. 2024
+            EST. 2023
           </p>
           <h1 className="text-white text-4xl sm:text-5xl md:text-6xl font-bold tracking-wider mb-4">
             GRACIAS POR CONFIAR
@@ -19,7 +19,7 @@ export default function SplashScreen({ isVisible }) {
             EN LA DINASTÍA DEL MATE
           </h2>
           <p className="text-white text-lg sm:text-xl italic font-light tracking-wide">
-            un refugio de recuerdos
+            La mejor atencion y calidad
           </p>
         </div>
       </div>
