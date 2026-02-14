@@ -64,7 +64,7 @@ export default function Header() {
         <div className="flex flex-wrap items-center gap-4 w-full">
           <Link to="/" className="flex items-center">
             <img 
-              src="/img/WhatsApp Image 2026-02-13 at 21.46.24.jpeg" 
+              src="/assets/WhatsApp Image 2026-02-13 at 21.46.24.jpeg" 
               alt="Tienda Bien Alto" 
               className="w-12 h-12 rounded-full object-cover"
             />
