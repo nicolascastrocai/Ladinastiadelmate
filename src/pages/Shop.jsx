@@ -5,11 +5,12 @@ export default function Shop() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
+    // TODO: Add real product images when available
     setProducts([
-      { id: 1, name: "Producto 1", price: 1200, image:"/src/assets/prod1.jpg"},
-      { id: 2, name: "Producto 2", price: 850, image:"/src/assets/prod2.jpg"},
-      { id: 3, name: "Producto 3", price: 1500, image:"/src/assets/prod3.jpg"},
-      { id: 4, name: "Producto 4", price: 1900, image:"/src/assets/prod4.jpg"},
+      { id: 1, name: "Producto 1", price: 1200, image: ""},
+      { id: 2, name: "Producto 2", price: 850, image: ""},
+      { id: 3, name: "Producto 3", price: 1500, image: ""},
+      { id: 4, name: "Producto 4", price: 1900, image: ""},
     ]);
   }, []);
 

@@ -1,4 +1,5 @@
 import React from "react";
+import productImage from "../assets/WhatsApp Image 2026-02-13 at 20.37.56 (1).jpeg";
 import { Link } from "react-router-dom";
 
 export default function LlaveroAzucarero() {
@@ -10,7 +11,7 @@ export default function LlaveroAzucarero() {
       price: 29.99,
       originalPrice: 39.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.56 (1).jpeg",
+      image: productImage,
       description: "Llavero de alta calidad con diseño elegante. Perfecto para regalo o uso personal.",
       inStock: true,
       onSale: true,
@@ -22,7 +23,7 @@ export default function LlaveroAzucarero() {
       price: 49.99,
       originalPrice: 69.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.56 (1).jpeg",
+      image: productImage,
       description: "Azucarero artesanal hecho a mano con materiales de primera calidad. Ideal para el mate.",
       inStock: true,
       onSale: true,
@@ -34,7 +35,7 @@ export default function LlaveroAzucarero() {
       price: 69.99,
       originalPrice: 89.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.56 (1).jpeg",
+      image: productImage,
       description: "Set completo con llavero y azucarero a juego. Perfecto para regalar.",
       inStock: true,
       onSale: true,
@@ -46,7 +47,7 @@ export default function LlaveroAzucarero() {
       price: 34.99,
       originalPrice: 44.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.56 (1).jpeg",
+      image: productImage,
       description: "Llavero con grabado personalizado. Diseño único y duradero.",
       inStock: true,
       onSale: true,
@@ -58,7 +59,7 @@ export default function LlaveroAzucarero() {
       price: 79.99,
       originalPrice: 99.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.56 (1).jpeg",
+      image: productImage,
       description: "Azucarero de lujo con acabados premium. La mejor opción para los amantes del mate.",
       inStock: true,
       onSale: true,

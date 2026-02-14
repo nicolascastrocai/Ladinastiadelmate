@@ -1,4 +1,5 @@
 import React from "react";
+import productImage from "../assets/WhatsApp Image 2026-02-13 at 20.37.58.jpeg";
 import { Link } from "react-router-dom";
 
 export default function Bombilla() {
@@ -10,7 +11,7 @@ export default function Bombilla() {
       price: 39.99,
       originalPrice: 49.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.58.jpeg",
+      image: productImage,
       description: "Bombilla de alpaca de alta calidad con filtro desmontable. Perfecta para el mate.",
       inStock: true,
       onSale: true,
@@ -22,7 +23,7 @@ export default function Bombilla() {
       price: 29.99,
       originalPrice: 39.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.58.jpeg",
+      image: productImage,
       description: "Bombilla de acero inoxidable resistente y duradera. Ideal para el uso diario.",
       inStock: true,
       onSale: true,
@@ -34,7 +35,7 @@ export default function Bombilla() {
       price: 44.99,
       originalPrice: 59.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.58.jpeg",
+      image: productImage,
       description: "Bombilla con diseño ergonómico y pico curvo. Perfecta para una experiencia única.",
       inStock: true,
       onSale: true,
@@ -46,7 +47,7 @@ export default function Bombilla() {
       price: 24.99,
       originalPrice: 34.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.58.jpeg",
+      image: productImage,
       description: "Bombilla tradicional de excelente calidad. Diseño clásico y duradero.",
       inStock: true,
       onSale: true,
@@ -58,7 +59,7 @@ export default function Bombilla() {
       price: 59.99,
       originalPrice: 79.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.58.jpeg",
+      image: productImage,
       description: "Bombilla de lujo con grabado artesanal. La mejor opción para los amantes del mate.",
       inStock: true,
       onSale: true,

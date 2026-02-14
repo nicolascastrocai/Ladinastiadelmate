@@ -1,4 +1,5 @@
 import React from "react";
+import productImage from "../assets/WhatsApp Image 2026-02-13 at 20.37.55.jpeg";
 import { Link } from "react-router-dom";
 
 export default function Mates() {
@@ -10,7 +11,7 @@ export default function Mates() {
       price: 129.99,
       originalPrice: 159.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.55.jpeg",
+      image: productImage,
       description: "Mate de alta calidad con diseño elegante. Perfecto para disfrutar de tus momentos de mate.",
       inStock: true,
       onSale: true,
@@ -22,7 +23,7 @@ export default function Mates() {
       price: 89.99,
       originalPrice: 109.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.55.jpeg",
+      image: productImage,
       description: "Mate artesanal hecho a mano con materiales de primera calidad. Ideal para el uso diario.",
       inStock: true,
       onSale: true,
@@ -34,7 +35,7 @@ export default function Mates() {
       price: 149.99,
       originalPrice: 189.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.55.jpeg",
+      image: productImage,
       description: "Mate premium con grabado personalizado. Perfecto para regalar o uso personal.",
       inStock: true,
       onSale: true,
@@ -46,7 +47,7 @@ export default function Mates() {
       price: 69.99,
       originalPrice: 89.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.55.jpeg",
+      image: productImage,
       description: "Mate tradicional de excelente calidad. Diseño clásico y duradero.",
       inStock: true,
       onSale: true,
@@ -58,7 +59,7 @@ export default function Mates() {
       price: 199.99,
       originalPrice: 249.99,
       rating: 4.5,
-      image: "/src/assets/WhatsApp Image 2026-02-13 at 20.37.55.jpeg",
+      image: productImage,
       description: "Mate de lujo con acabados premium y personalización incluida. La mejor opción para los amantes del mate.",
       inStock: true,
       onSale: true,
