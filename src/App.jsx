@@ -10,6 +10,7 @@ import LlaveroAzucarero from "./pages/LlaveroAzucarero";
 import Termos from "./pages/Termos";
 import Bombilla from "./pages/Bombilla";
 import VasoFernetero from "./pages/VasoFernetero";
+import SetMateros from "./pages/SetMateros";
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -35,6 +36,7 @@ function App() {
           <Route path="/termos" element={<Termos />} />
           <Route path="/bombilla" element={<Bombilla />} />
           <Route path="/vaso-fernetero" element={<VasoFernetero />} />
+          <Route path="/set-materos" element={<SetMateros />} />
         </Routes>
         <Footer />
       </BrowserRouter>

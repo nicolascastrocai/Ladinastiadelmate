@@ -11,8 +11,9 @@ const primaryLinks = [
       { label: "Mates", to: "/mates" },
       { label: "Termos", to: "/termos" },
       { label: "Bombilla", to: "/bombilla" },
-      { label: "Llavero y Azucarero", to: "/llavero-azucarero" },
       { label: "Vaso Fernetero", to: "/vaso-fernetero" },
+      { label: "Latas", to: "/llavero-azucarero" },
+      { label: "Set Materos", to: "/set-materos" },
     ]
   },
   { label: "Contacto", to: "#contacto" },

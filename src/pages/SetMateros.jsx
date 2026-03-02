@@ -1,16 +1,36 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import lataHojalata from "../assets/latas/WhatsApp Image 2026-02-16 at 15.09.30.jpeg";
+import setStanley from "../assets/mates/WhatsApp Image 2026-02-16 at 15.09.18 (1).jpeg";
+import setArgentina from "../assets/set completos/WhatsApp Image 2026-02-16 at 15.09.39.jpeg";
+import setCompleto from "../assets/set completos/WhatsApp Image 2026-02-16 at 15.11.02.jpeg";
 
-export default function LlaveroAzucarero() {
+export default function SetMateros() {
   const products = [
     {
       id: 1,
-      name: "Latas de Hojalata",
-      category: "Latas",
-      price: 2900,
-      image: lataHojalata,
-      description: "Latas de hojalata de alta calidad. Perfectas para guardar yerba, azúcar o café.",
+      name: "Set Completo Stanley",
+      category: "Set Materos",
+      price: 8500,
+      image: setStanley,
+      description: "Set completo estilo Stanley con mate, bombilla y accesorios. Todo lo que necesitás para disfrutar el mate.",
+      inStock: true,
+    },
+    {
+      id: 2,
+      name: "Set Completo Argentina 🇦🇷",
+      category: "Set Materos",
+      price: 12000,
+      image: setArgentina,
+      description: "Set completo con diseño Argentina. Ideal para regalar o uso personal. Incluye mate, bombilla y accesorios.",
+      inStock: true,
+    },
+    {
+      id: 3,
+      name: "Set Completo Premium",
+      category: "Set Materos",
+      price: 30000,
+      image: setCompleto,
+      description: "Set completo premium con todos los accesorios materos de la mejor calidad. La opción más completa.",
       inStock: true,
     },
   ];
@@ -25,8 +45,8 @@ export default function LlaveroAzucarero() {
             </svg>
             Volver al inicio
           </Link>
-          <h1 className="text-4xl sm:text-5xl font-bold italic">LATAS</h1>
-          <p className="text-white/80 mt-2">Descubrí nuestra colección de latas de hojalata</p>
+          <h1 className="text-4xl sm:text-5xl font-bold italic">SET MATEROS</h1>
+          <p className="text-white/80 mt-2">Descubrí nuestros sets materos completos</p>
         </div>
       </div>
 

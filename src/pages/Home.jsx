@@ -4,11 +4,12 @@ import { useScrollAnimation } from "../hooks/useScrollAnimation";
 import FAQ from "../components/FAQ";
 import heroImage from "../assets/360_F_523378084_mkoc6hIGSmNncESTUvzSL8vCidYFUeaS.jpg";
 import logo from "../assets/WhatsApp Image 2026-02-13 at 21.46.24.jpeg";
-import matesImage from "../assets/WhatsApp Image 2026-02-13 at 20.37.53.jpeg";
-import termosImage from "../assets/WhatsApp Image 2026-02-13 at 20.38.02.jpeg";
-import bombillaImage from "../assets/WhatsApp Image 2026-02-13 at 20.37.58.jpeg";
-import llaveroImage from "../assets/WhatsApp Image 2026-02-13 at 20.37.56 (1).jpeg";
-import vasoImage from "../assets/WhatsApp Image 2026-02-13 at 20.37.52.jpeg";
+import matesImage from "../assets/mates/WhatsApp Image 2026-02-16 at 15.08.07.jpeg";
+import termosImage from "../assets/termos/WhatsApp Image 2026-02-16 at 15.10.38.jpeg";
+import bombillaImage from "../assets/Bombilla/WhatsApp Image 2026-02-16 at 15.08.58.jpeg";
+import vasoImage from "../assets/fernetero/WhatsApp Image 2026-02-16 at 15.07.38.jpeg";
+import latasImage from "../assets/latas/WhatsApp Image 2026-02-16 at 15.09.30.jpeg";
+import setMaterosImage from "../assets/set completos/WhatsApp Image 2026-02-16 at 15.09.39.jpeg";
 
 export default function Home() {
   const [heroRef, heroVisible] = useScrollAnimation();
@@ -115,7 +116,7 @@ export default function Home() {
               <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold italic text-gray-900 mb-3">CATEGORÍAS</h2>
               <Link
                 to="/tienda"
-                className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-2.5 rounded-full transition-all duration-300 text-sm"
+                className="inline-flex items-center gap-2 bg-black hover:bg-gray-800 text-white font-bold px-6 py-2.5 rounded-full transition-all duration-300 text-sm"
               >
                 Ver todos los productos
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -125,13 +126,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
             {[
               { name: "Mates", image: matesImage, link: "/mates" },
               { name: "Termos", image: termosImage, link: "/termos" },
               { name: "Bombilla", image: bombillaImage, link: "/bombilla" },
-              { name: "Llavero y Azucarero", image: llaveroImage, link: "/llavero-azucarero" },
               { name: "Vaso Fernetero", image: vasoImage, link: "/vaso-fernetero" },
+              { name: "Latas", image: latasImage, link: "/llavero-azucarero" },
+              { name: "Set Materos", image: setMaterosImage, link: "/set-materos" },
             ].map((category) => (
               <Link
                 key={category.name}
