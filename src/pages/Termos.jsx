@@ -44,11 +44,11 @@ export default function Termos() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 sm:gap-6">
           {products.map((product) => (
             <div key={product.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer">
-              <div className="relative">
+              <div className="relative bg-gray-100">
                 <img
                   src={product.image}
                   alt={product.name}
-                  className="w-full h-72 sm:h-80 object-cover"
+                  className="w-full h-80 sm:h-96 object-contain"
                 />
               </div>
 
