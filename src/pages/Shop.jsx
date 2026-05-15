@@ -4,10 +4,12 @@ import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 // Mates images
 import mate1 from "../assets/mates/WhatsApp Image 2026-02-16 at 15.08.07.jpeg";
-import mate2 from "../assets/mates/WhatsApp Image 2026-02-16 at 15.08.18.jpeg";
-import mate3 from "../assets/mates/WhatsApp Image 2026-02-16 at 15.08.30.jpeg";
+import mate2 from "../assets/mates/WhatsApp Image 2026-05-12 at 19.42.01.jpeg";
+import mate3 from "../assets/mates/WhatsApp Image 2026-05-12 at 19.41.37.jpeg";
 import mate4 from "../assets/mates/WhatsApp Image 2026-02-16 at 15.09.51.jpeg";
 import mate5 from "../assets/mates/WhatsApp Image 2026-02-16 at 15.10.23.jpeg";
+import mate6 from "../assets/mates/WhatsApp Image 2026-05-12 at 19.38.41.jpeg";
+import pizeras from "../assets/pizzeras/WhatsApp Image 2026-05-12 at 19.39.51.jpeg";
 
 // Termos images
 import termo1 from "../assets/termos/WhatsApp Image 2026-02-16 at 15.10.38.jpeg";
@@ -16,6 +18,7 @@ import termo2 from "../assets/termos/WhatsApp Image 2026-02-16 at 15.10.51.jpeg"
 // Bombilla images
 import bombilla1 from "../assets/Bombilla/WhatsApp Image 2026-02-16 at 15.08.58.jpeg";
 import bombilla2 from "../assets/Bombilla/WhatsApp Image 2026-02-16 at 15.10.14.jpeg";
+import bombilla3 from "../assets/Bombilla/WhatsApp Image 2026-05-12 at 19.40.15.jpeg";
 
 // Fernetero image
 import fernetero1 from "../assets/fernetero/WhatsApp Image 2026-02-16 at 15.07.38.jpeg";
@@ -30,25 +33,28 @@ import set3 from "../assets/set completos/WhatsApp Image 2026-02-16 at 15.11.02.
 
 const allProducts = [
   // Mates
-  { id: 1, name: "Mate Símil Stanley", category: "Mates", price: 2900, image: mate1, description: "Térmico bicapa acero 430 0,6 ml de espesor" },
-  { id: 2, name: "Mini Stanley", category: "Mates", price: 2750, image: mate2, description: "Térmico bicapa acero 430 0,6 ml de espesor" },
-  { id: 3, name: "Vasito", category: "Mates", price: 2750, image: mate3, description: "Térmico bicapa acero 430 0,6 ml de espesor" },
-  { id: 4, name: "Copa", category: "Mates", price: 3000, image: mate4, description: "Térmico bicapa acero 430 0,6 ml de espesor" },
-  { id: 5, name: "Stanley", category: "Mates", price: 3000, image: mate5, description: "Térmico bicapa acero 430 0,6 ml de espesor" },
+  { id: 1, name: "Mate Símil Stanley", category: "Mates", price: 3050, image: mate1, description: "Térmico bicapa acero 430 0,6 ml de espesor" },
+  { id: 2, name: "Mate Térmico Mini Stanley", category: "Mates", price: 2850, image: mate2, description: "Hierro aluminizado con interior de acero 430 0,6 ml espesor" },
+  { id: 3, name: "Mate Vasito Recto", category: "Mates", price: 850, image: mate3, description: "Mate vasito recto de alta calidad" },
+  { id: 4, name: "Mate Térmico Modelo Copa", category: "Mates", price: 3000, image: mate4, description: "Diseño copa con excelente aislamiento térmico" },
+  { id: 5, name: "Mate Térmico Stanley", category: "Mates", price: 3000, image: mate5, description: "Con interior acero inoxidable de alta calidad" },
+  { id: 6, name: "Mate Stanley Clásico", category: "Mates", price: 3150, image: mate6, description: "Mate Stanley clásico de alta calidad" },
+  { id: 7, name: "Pizzeras Número 36", category: "Pizzeras", price: 3500, image: pizeras, description: "Pizzeras número 36 de alta calidad" },
   // Termos
-  { id: 6, name: "Termo Acero con Manija", category: "Termos", price: 17000, image: termo1, description: "Acero inoxidable 1 litro con manija" },
-  { id: 7, name: "Termo Bala Pintado", category: "Termos", price: 15000, image: termo2, description: "Bala pintado 1 litro" },
+  { id: 8, name: "Termo Acero con Manija", category: "Termos", price: 17000, image: termo1, description: "Acero inoxidable 1 litro con manija" },
+  { id: 9, name: "Termo Bala Pintado", category: "Termos", price: 15000, image: termo2, description: "Bala pintado 1 litro" },
   // Bombillas
-  { id: 8, name: "Embellecedor de Bronce", category: "Bombilla", price: 1500, image: bombilla1, description: "Embellecedor de bronce para bombilla" },
-  { id: 9, name: "Sorbetes Metálicos", category: "Bombilla", price: 800, image: bombilla2, description: "Set de sorbetes metálicos reutilizables" },
+  { id: 10, name: "Bombilla con Embellecedor de Bronce", category: "Bombilla", price: 1500, image: bombilla1, description: "Material acero inoxidable con embellecedor de bronce" },
+  { id: 11, name: "Sorbetes Reutilizables Metálicos", category: "Bombilla", price: 800, image: bombilla2, description: "Sorbetes curvos y rectos de metal reutilizables" },
+  { id: 12, name: "Bombillas con Dije de Bronce", category: "Bombilla", price: 1500, image: bombilla3, description: "Bombilla de acero inoxidable con dije decorativo de bronce" },
   // Fernetero
-  { id: 10, name: "Fernetero de Aluminio", category: "Vaso Fernetero", price: 2900, image: fernetero1, description: "Vaso fernetero de aluminio premium" },
+  { id: 13, name: "Fernetero de Aluminio", category: "Vaso Fernetero", price: 2900, image: fernetero1, description: "Vaso fernetero de aluminio premium" },
   // Latas
-  { id: 11, name: "Latas de Hojalata", category: "Latas", price: 2900, image: lata1, description: "Latas de hojalata decorativas" },
+  { id: 14, name: "Latas de Hojalata", category: "Latas", price: 2900, image: lata1, description: "Latas de hojalata decorativas" },
   // Set Materos
-  { id: 12, name: "Set Stanley", category: "Set Materos", price: 8500, image: set1, description: "Set completo con mate Stanley, bombilla y termo" },
-  { id: 13, name: "Set Argentina", category: "Set Materos", price: 12000, image: set2, description: "Set completo temática Argentina con mate, bombilla y accesorios" },
-  { id: 14, name: "Set Premium", category: "Set Materos", price: 30000, image: set3, description: "Set premium completo con mate, termo, bombilla y accesorios de lujo" },
+  { id: 15, name: "Set Stanley", category: "Set Materos", price: 8500, image: set1, description: "Set completo con mate Stanley, bombilla y termo" },
+  { id: 16, name: "Set Argentina", category: "Set Materos", price: 12000, image: set2, description: "Set completo temática Argentina con mate, bombilla y accesorios" },
+  { id: 17, name: "Set Premium", category: "Set Materos", price: 30000, image: set3, description: "Set premium completo con mate, termo, bombilla y accesorios de lujo" },
 ];
 
 export default function Shop() {

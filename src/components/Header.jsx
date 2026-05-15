@@ -14,6 +14,7 @@ const primaryLinks = [
       { label: "Vaso Fernetero", to: "/vaso-fernetero" },
       { label: "Latas", to: "/llavero-azucarero" },
       { label: "Set Materos", to: "/set-materos" },
+      { label: "Pizzeras", to: "/pizzeras" },
     ]
   },
   { label: "Contacto", to: "#contacto" },

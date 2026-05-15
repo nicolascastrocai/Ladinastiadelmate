@@ -1,66 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import mateSimil from "../assets/mates/WhatsApp Image 2026-02-16 at 15.08.07.jpeg";
-import mateMiniStanley from "../assets/mates/WhatsApp Image 2026-05-12 at 19.42.01.jpeg";
-import mateVasito from "../assets/mates/WhatsApp Image 2026-05-12 at 19.41.37.jpeg";
-import mateCopa from "../assets/mates/WhatsApp Image 2026-02-16 at 15.09.51.jpeg";
-import mateStanley from "../assets/mates/WhatsApp Image 2026-02-16 at 15.10.23.jpeg";
-import mateStanleyClasico from "../assets/mates/WhatsApp Image 2026-05-12 at 19.38.41.jpeg";
+import pizeras from "../assets/pizzeras/WhatsApp Image 2026-05-12 at 19.39.51.jpeg";
 
-export default function Mates() {
+export default function Pizzeras() {
   const products = [
     {
       id: 1,
-      name: "Mate Símil Stanley",
-      category: "Mates",
-      price: 3050,
-      image: mateSimil,
-      description: "Térmico bicapa acero 430 0,6 ml de espesor",
-      inStock: true,
-    },
-    {
-      id: 2,
-      name: "Mate Térmico Mini Stanley",
-      category: "Mates",
-      price: 2850,
-      image: mateMiniStanley,
-      description: "Hierro aluminizado con interior de acero 430 0,6 ml espesor",
-      inStock: true,
-    },
-    {
-      id: 3,
-      name: "Mate Vasito Recto",
-      category: "Mates",
-      price: 850,
-      image: mateVasito,
-      description: "Mate vasito recto de alta calidad",
-      inStock: true,
-    },
-    {
-      id: 4,
-      name: "Mate Térmico Modelo Copa",
-      category: "Mates",
-      price: 3000,
-      image: mateCopa,
-      description: "Diseño copa con excelente aislamiento térmico",
-      inStock: true,
-    },
-    {
-      id: 5,
-      name: "Mate Térmico Stanley",
-      category: "Mates",
-      price: 3000,
-      image: mateStanley,
-      description: "Con interior acero inoxidable de alta calidad",
-      inStock: true,
-    },
-    {
-      id: 6,
-      name: "Mate Stanley Clásico",
-      category: "Mates",
-      price: 3150,
-      image: mateStanleyClasico,
-      description: "Mate Stanley clásico de alta calidad",
+      name: "Pizzeras Número 36",
+      category: "Pizzeras",
+      price: 3500,
+      image: pizeras,
+      description: "Pizzeras número 36 de alta calidad",
       inStock: true,
     },
   ];
@@ -75,8 +25,8 @@ export default function Mates() {
             </svg>
             Volver al inicio
           </Link>
-          <h1 className="text-4xl sm:text-5xl font-bold italic">MATES</h1>
-          <p className="text-white/80 mt-2">Descubrí nuestra colección de mates premium</p>
+          <h1 className="text-4xl sm:text-5xl font-bold italic">PIZZERAS</h1>
+          <p className="text-white/80 mt-2">Descubrí nuestra colección de pizzeras</p>
         </div>
       </div>
 

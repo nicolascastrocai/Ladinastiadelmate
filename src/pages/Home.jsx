@@ -10,6 +10,7 @@ import bombillaImage from "../assets/Bombilla/WhatsApp Image 2026-02-16 at 15.08
 import vasoImage from "../assets/fernetero/WhatsApp Image 2026-02-16 at 15.07.38.jpeg";
 import latasImage from "../assets/latas/WhatsApp Image 2026-02-16 at 15.09.30.jpeg";
 import setMaterosImage from "../assets/set completos/WhatsApp Image 2026-02-16 at 15.09.39.jpeg";
+import pizzerasImage from "../assets/pizzeras/WhatsApp Image 2026-05-12 at 19.39.51.jpeg";
 
 export default function Home() {
   const [heroRef, heroVisible] = useScrollAnimation();
@@ -128,7 +129,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-6">
             {[
               { name: "Mates", image: matesImage, link: "/mates" },
               { name: "Termos", image: termosImage, link: "/termos" },
@@ -136,6 +137,7 @@ export default function Home() {
               { name: "Vaso Fernetero", image: vasoImage, link: "/vaso-fernetero" },
               { name: "Latas", image: latasImage, link: "/llavero-azucarero" },
               { name: "Set Materos", image: setMaterosImage, link: "/set-materos" },
+              { name: "Pizzeras", image: pizzerasImage, link: "/pizzeras" },
             ].map((category) => (
               <Link
                 key={category.name}

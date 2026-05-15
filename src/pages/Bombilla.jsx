@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import bombillaBronce from "../assets/Bombilla/WhatsApp Image 2026-02-16 at 15.08.58.jpeg";
 import sorbetes from "../assets/Bombilla/WhatsApp Image 2026-02-16 at 15.10.14.jpeg";
+import bombillaDije from "../assets/Bombilla/WhatsApp Image 2026-05-12 at 19.40.15.jpeg";
 
 export default function Bombilla() {
   const products = [
@@ -21,6 +22,15 @@ export default function Bombilla() {
       price: 800,
       image: sorbetes,
       description: "Sorbetes curvos y rectos de metal reutilizables. Ecológicos y duraderos.",
+      inStock: true,
+    },
+    {
+      id: 3,
+      name: "Bombillas con Dije de Bronce",
+      category: "Bombilla",
+      price: 1500,
+      image: bombillaDije,
+      description: "Bombilla de acero inoxidable con dije decorativo de bronce.",
       inStock: true,
     },
   ];

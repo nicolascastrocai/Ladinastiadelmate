@@ -11,6 +11,7 @@ import Termos from "./pages/Termos";
 import Bombilla from "./pages/Bombilla";
 import VasoFernetero from "./pages/VasoFernetero";
 import SetMateros from "./pages/SetMateros";
+import Pizzeras from "./pages/Pizzeras";
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -37,6 +38,7 @@ function App() {
           <Route path="/bombilla" element={<Bombilla />} />
           <Route path="/vaso-fernetero" element={<VasoFernetero />} />
           <Route path="/set-materos" element={<SetMateros />} />
+          <Route path="/pizzeras" element={<Pizzeras />} />
         </Routes>
         <Footer />
       </BrowserRouter>
