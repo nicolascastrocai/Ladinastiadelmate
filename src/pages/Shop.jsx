@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 // Mates images
-import mate1 from "../assets/mates/WhatsApp Image 2026-02-16 at 15.08.07.jpeg";
 import mate2 from "../assets/mates/WhatsApp Image 2026-05-12 at 19.42.01.jpeg";
 import mate3 from "../assets/mates/WhatsApp Image 2026-05-12 at 19.41.37.jpeg";
 import mate4 from "../assets/mates/WhatsApp Image 2026-02-16 at 15.09.51.jpeg";
@@ -33,13 +32,12 @@ import set3 from "../assets/set completos/WhatsApp Image 2026-02-16 at 15.11.02.
 
 const allProducts = [
   // Mates
-  { id: 1, name: "Mate Símil Stanley", category: "Mates", price: 3050, image: mate1, description: "Térmico bicapa acero 430 0,6 ml de espesor" },
-  { id: 2, name: "Mate Térmico Mini Stanley", category: "Mates", price: 2850, image: mate2, description: "Hierro aluminizado con interior de acero 430 0,6 ml espesor" },
-  { id: 3, name: "Mate Vasito Recto", category: "Mates", price: 850, image: mate3, description: "Mate vasito recto de alta calidad" },
-  { id: 4, name: "Mate Térmico Modelo Copa", category: "Mates", price: 3000, image: mate4, description: "Diseño copa con excelente aislamiento térmico" },
-  { id: 5, name: "Mate Térmico Stanley", category: "Mates", price: 3000, image: mate5, description: "Con interior acero inoxidable de alta calidad" },
-  { id: 6, name: "Mate Stanley Clásico", category: "Mates", price: 3150, image: mate6, description: "Mate Stanley clásico de alta calidad" },
-  { id: 7, name: "Pizzeras Número 36", category: "Pizzeras", price: 3500, image: pizeras, description: "Pizzeras número 36 de alta calidad" },
+  { id: 1, name: "Mate Térmico Mini Stanley", category: "Mates", price: 2850, image: mate2, description: "Hierro aluminizado con interior de acero 430 0,6 ml espesor" },
+  { id: 2, name: "Mate Vasito Recto", category: "Mates", price: 2850, image: mate3, description: "Mate vasito recto de alta calidad" },
+  { id: 3, name: "Mate Térmico Modelo Copa", category: "Mates", price: 3000, image: mate4, description: "Diseño copa con excelente aislamiento térmico" },
+  { id: 4, name: "Mate Térmico Stanley", category: "Mates", price: 3000, image: mate5, description: "Con interior acero inoxidable de alta calidad" },
+  { id: 5, name: "Mate Stanley Clásico", category: "Mates", price: 3150, image: mate6, description: "Mate Stanley clásico de alta calidad" },
+  { id: 6, name: "Pizzeras Número 36", category: "Pizzeras", price: 3500, image: pizeras, description: "Pizzeras número 36 de alta calidad" },
   // Termos
   { id: 8, name: "Termo Acero con Manija", category: "Termos", price: 17000, image: termo1, description: "Acero inoxidable 1 litro con manija" },
   { id: 9, name: "Termo Bala Pintado", category: "Termos", price: 15000, image: termo2, description: "Bala pintado 1 litro" },

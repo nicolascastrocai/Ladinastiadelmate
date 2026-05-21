@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import mateSimil from "../assets/mates/WhatsApp Image 2026-02-16 at 15.08.07.jpeg";
 import mateMiniStanley from "../assets/mates/WhatsApp Image 2026-05-12 at 19.42.01.jpeg";
 import mateVasito from "../assets/mates/WhatsApp Image 2026-05-12 at 19.41.37.jpeg";
 import mateCopa from "../assets/mates/WhatsApp Image 2026-02-16 at 15.09.51.jpeg";
@@ -11,15 +10,6 @@ export default function Mates() {
   const products = [
     {
       id: 1,
-      name: "Mate Símil Stanley",
-      category: "Mates",
-      price: 3050,
-      image: mateSimil,
-      description: "Térmico bicapa acero 430 0,6 ml de espesor",
-      inStock: true,
-    },
-    {
-      id: 2,
       name: "Mate Térmico Mini Stanley",
       category: "Mates",
       price: 2850,
@@ -28,16 +18,16 @@ export default function Mates() {
       inStock: true,
     },
     {
-      id: 3,
+      id: 2,
       name: "Mate Vasito Recto",
       category: "Mates",
-      price: 850,
+      price: 2850,
       image: mateVasito,
       description: "Mate vasito recto de alta calidad",
       inStock: true,
     },
     {
-      id: 4,
+      id: 3,
       name: "Mate Térmico Modelo Copa",
       category: "Mates",
       price: 3000,
@@ -46,7 +36,7 @@ export default function Mates() {
       inStock: true,
     },
     {
-      id: 5,
+      id: 4,
       name: "Mate Térmico Stanley",
       category: "Mates",
       price: 3000,
@@ -55,7 +45,7 @@ export default function Mates() {
       inStock: true,
     },
     {
-      id: 6,
+      id: 5,
       name: "Mate Stanley Clásico",
       category: "Mates",
       price: 3150,
