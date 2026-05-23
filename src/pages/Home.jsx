@@ -10,7 +10,7 @@ import bombillaImage from "../assets/Bombilla/WhatsApp Image 2026-02-16 at 15.08
 import vasoImage from "../assets/fernetero/WhatsApp Image 2026-02-16 at 15.07.38.jpeg";
 import latasImage from "../assets/latas/WhatsApp Image 2026-02-16 at 15.09.30.jpeg";
 import setMaterosImage from "../assets/set completos/WhatsApp Image 2026-02-16 at 15.09.39.jpeg";
-import pizzerasImage from "../assets/pizzeras/WhatsApp Image 2026-05-12 at 19.39.51.jpeg";
+import pizzerasImage from "../assets/pizzeras/WhatsApp Image 2026-05-12 at 19.39.52.jpeg";
 
 export default function Home() {
   const [heroRef, heroVisible] = useScrollAnimation();
